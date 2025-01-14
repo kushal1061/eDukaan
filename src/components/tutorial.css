@@ -1,0 +1,74 @@
+.con {
+    border-bottom: 1px solid #0000001A;
+}
+
+.tut-heading {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.con {
+    display: flex;
+    padding: 50px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+#tutorial {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.tutlist {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    border: 1px solid var(--secondary-text, #939598);
+}
+
+.tutlist img {
+    height: 100px;
+    width: 100px;
+}
+
+.tutDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 8px;
+
+}
+.tutDetails h3{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+}
+.tutDetails>div{
+    color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}

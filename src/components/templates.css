@@ -1,0 +1,44 @@
+.templates{
+    display: flex;
+    padding: 60px 170px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+    border-bottom: 1px solid #0000001A;
+
+}
+.templates h2{
+    color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+width: 520px;
+}
+.templateContainer{
+    display: flex;
+    flex-direction: row;
+align-items: flex-start;
+gap: 40px;
+align-self: stretch;
+}
+.templateCard{
+    display: flex;
+padding: 12px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex: 1 0 0;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
