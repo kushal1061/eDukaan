@@ -1,0 +1,144 @@
+.view-products {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.view-products h1 {
+    color: var(--second-primary, #1C75BD);
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 120% */
+}
+
+#add-form-container {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#add-product {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+    gap: 40px 80px;
+    margin: auto;
+}
+
+.sec-view-product {
+    display: flex;
+    min-height: 100vh;
+    padding-left: 220px;
+    /* Instead of margin, use padding to account for fixed sidebar */
+    flex-direction: column;
+}
+
+.view-products-text {
+    color: var(--secondary-text, #939598);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.img-holder {
+    flex: 1 0 0;
+    align-self: stretch;
+    background: rgba(217, 217, 217, 0.50);
+    height: 500px;
+    width: 400px;
+}
+
+.view-product-grid {
+    padding-left: 280px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 364px 364px 364px;
+    gap: 100px 40px;
+    margin: auto;
+}
+
+.view-product-grid>div {
+    width: 100%;
+    /* height: 380px; */
+    /* background-color: #1C75BD; */
+}
+
+.view-name,
+.qty {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.price,
+.quantity {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 140% */
+}
+
+.view-card {
+    padding: 0px 10px 10px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    height: fit-content
+}
+
+.view-card img {
+    height: 340px;
+    width: 340px;
+}
+
+.card-line1 {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-btn {
+    padding: 25px;
+    padding-left: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn button {
+    display: flex;
+    width: 1252px;
+    height: 73px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--second-primary, #1C75BD);
+    color: var(--primary, #FBFDFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    border: none;
+}

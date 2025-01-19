@@ -4,6 +4,10 @@
     border-bottom: 1px solid #0000001A;
 }
 
+body {
+    padding-top: 80px; /* Matches the navbar height */
+}
+
 .tut-heading {
     color: #000;
     text-align: center;

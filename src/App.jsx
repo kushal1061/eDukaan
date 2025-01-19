@@ -10,8 +10,11 @@ import Registration from './pages/registration'
 import Footer from './components/footer'
 import Faq from './pages/faq'
 import Dashboard from './pages/dashboard'
-import Addproducts from './pages/addproducts'
+import Productmanagement from './pages/Productmanagement'
 import { Routes,Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import Chatbot from './components/Chatbot'
+import AddProducts from './pages/addproducts'
+import Viewproducts from './pages/viewproducts'
 function App() {
       // const router=createBrowserRouter(
       //   createRoutesFromElements(
@@ -29,8 +32,12 @@ function App() {
         <Route path="/registration" element={<Registration/>} />
         <Route path="/FAQ" element={<Faq/>} />
         <Route path="/landing" element={<Landing/>} />
-        <Route path="/addProducts" element={<Addproducts/>} />
+        <Route path="/addProducts" element={<AddProducts/>} />
+        <Route path="/viewproducts" element={<Viewproducts/>} />
+        <Route path="/Productmanagement" element={<Productmanagement/>} />
+
       </Routes>
+      <Chatbot></Chatbot>
       <Footer></Footer>
     </>
   )

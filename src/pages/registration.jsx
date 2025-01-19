@@ -11,7 +11,7 @@ function Registration(){
                 </span>
             </div>
             <div>
-                <form action="">
+                <form id="registration-form" action="">
                     <div className="form_container">
                         <label htmlFor="">Store Name</label>
                         <input type="text" placeholder="Enter your Store Name" />
