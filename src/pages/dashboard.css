@@ -1,11 +1,11 @@
 .dashwelcome {
     display: flex;
     flex-direction: column;
-    padding: 60px 170px;
+    padding: 60px 11vw;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    align-self: stretch;
+    width: 100vw;
     background: var(--second-primary, #1C75BD);
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@
 
 .quickAction {
     display: flex;
-    padding: 50px 170px;
+    padding: 50px 11.1vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 2.6vw;
     list-style: none;
     color: #000;
     text-align: center;
@@ -83,6 +83,11 @@
 }
 .quickAction img {
     width: 100px;
+}
+@media(max-screen:500px){
+    .quickAction img{
+        width:25vw;
+    }
 }
 
 .quickAction li {

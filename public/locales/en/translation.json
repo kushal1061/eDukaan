@@ -1,0 +1,21 @@
+{
+  "language": "Language",
+  "dashboard": {
+    "welcome": "Welcome to Universal Store Dashboard",
+    "manageStore": "Manage your storefront efficiently",
+    "quickActions": "Quick Actions",
+    "addEditProducts": "Add/Edit Products",
+    "viewProducts": "View Products",
+    "needAssistance": "Need Assistance"
+  },
+  "nav":{
+    "storeName": "E Dukaan",
+    "dashboard": "Dashboard",
+    "storeRegistration": "Store Registration",
+    "productManagement": "Product Management",
+    "tutorial": "Tutorial",
+    "searchPlaceholder": "Search in site",
+    "userRegistraion":""
+  }
+}
+

@@ -1,0 +1,29 @@
+{
+  "language": "Language",
+  "addproducts": {
+    "viewProduct": "उत्पादन पहा",
+    "addProduct": "उत्पादन जोडा",
+    "dragAndDrop": "उत्पादन जोडण्यासाठी ड्रॅग आणि ड्रॉप करा",
+    "manageProducts": "आपली उत्पादने आणि व्यवहार सहजपणे व्यवस्थापित करा",
+    "productDetails": "उत्पादन तपशील",
+    "productName": "उत्पादनाचे नाव",
+    "enterProductName": "उत्पादनाचे नाव प्रविष्ट करा",
+    "price": "किंमत",
+    "enterProductPrice": "उत्पादनाची किंमत प्रविष्ट करा",
+    "description": "वर्णन",
+    "enterDescription": "वर्णन प्रविष्ट करा",
+    "selectCategory": "श्रेणी निवडा",
+    "cancel": "रद्द करा",
+    "register": "नोंदणी करा"
+  },
+  "nav":{
+    
+      "storeName": "ई दुकान",
+      "dashboard": "डॅशबोर्ड",
+      "storeRegistration": "स्टोर नोंदणी",
+      "productManagement": "उत्पादन व्यवस्थापन",
+      "tutorial": "ट्युटोरियल",
+      "searchPlaceholder": "साइटमध्ये शोधा"
+    
+  }
+}

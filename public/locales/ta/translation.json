@@ -1,0 +1,28 @@
+{
+  "language": "Language",
+  "addproducts":{
+    "viewProduct": "தயாரிப்பைக் காண்க",
+    "addProduct": "தயாரிப்பைச் சேர்க்க",
+    "dragAndDrop": "தயாரிப்பைச் சேர்க்க இழுத்து விடவும்",
+    "manageProducts": "உங்கள் தயாரிப்புகள் மற்றும் பரிவர்த்தனைகளை எளிதாக நிர்வகிக்கலாம்",
+    "productDetails": "தயாரிப்பு விவரங்கள்",
+    "productName": "தயாரிப்பு பெயர்",
+    "enterProductName": "தயாரிப்பு பெயரை உள்ளிடவும்",
+    "price": "விலை",
+    "enterProductPrice": "தயாரிப்பு விலையை உள்ளிடவும்",
+    "description": "விளக்கம்",
+    "enterDescription": "விளக்கத்தை உள்ளிடவும்",
+    "selectCategory": "வகையைத் தேர்ந்தெடுக்கவும்",
+    "cancel": "ரத்து செய்",
+    "register": "பதிவு செய்"
+  }, 
+  "nav":{
+    "storeName": "இ துகான்",
+    "dashboard": "டாஷ்போர்டு",
+    "storeRegistration": "கடை பதிவு",
+    "productManagement": "தயாரிப்பு மேலாண்மை",
+    "tutorial": "பயிற்சி",
+    "searchPlaceholder": "தளத்தில் தேடுங்கள்"
+  }
+  
+}

@@ -15,7 +15,11 @@ import { Routes,Route, createBrowserRouter, createRoutesFromElements } from 'rea
 import Chatbot from './components/Chatbot'
 import AddProducts from './pages/addproducts'
 import Viewproducts from './pages/viewproducts'
+import UserRegistration from './pages/user'
+// import { useState } from 'react'
 function App() {
+    const [isLoggedin,setisLoggedin]=useState(false);
+    const [language,setlanguage]=useState(null);
       // const router=createBrowserRouter(
       //   createRoutesFromElements(
       //       <Route path='/' element ={}>
@@ -26,12 +30,13 @@ function App() {
 
   return (
     <>
-     <Navbar />
+     <Navbar  flag={isLoggedin}/>
       <Routes>
-        <Route path="/" element={<Dashboard/>} />
+        <Route path="/" element={<Landing/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/registration" element={<Registration/>} />
+        <Route path="/UserRegistration" element={<UserRegistration/>} />
         <Route path="/FAQ" element={<Faq/>} />
-        <Route path="/landing" element={<Landing/>} />
         <Route path="/addProducts" element={<AddProducts/>} />
         <Route path="/viewproducts" element={<Viewproducts/>} />
         <Route path="/Productmanagement" element={<Productmanagement/>} />

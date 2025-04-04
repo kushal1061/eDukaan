@@ -1,0 +1,36 @@
+{
+    "language": "language",
+        "dashboard": {
+        "welcome": "यूनिवर्सल स्टोर डैशबोर्ड में आपका स्वागत है",
+            "manageStore": "अपने स्टोरफ्रंट को प्रभावी ढंग से प्रबंधित करें",
+                "quickActions": "त्वरित क्रियाएँ",
+                    "addEditProducts": "उत्पाद जोड़ें/संपादित करें",
+                        "viewProducts": "उत्पाद देखें",
+                            "needAssistance": "मदद की जरूरत है"
+    },
+    
+    "addproducts":{
+        "viewProduct": "उत्पाद देखें",
+        "addProduct": "उत्पाद जोड़ें",
+        "dragAndDrop": "उत्पाद जोड़ने के लिए खींचें और छोड़ें",
+        "manageProducts": "आसानी से अपने उत्पादों और लेन-देन का प्रबंधन करें",
+        "productDetails": "उत्पाद विवरण",
+        "productName": "उत्पाद का नाम",
+        "enterProductName": "उत्पाद का नाम दर्ज करें",
+        "price": "मूल्य",
+        "enterProductPrice": "उत्पाद का मूल्य दर्ज करें",
+        "description": "विवरण",
+        "enterDescription": "विवरण दर्ज करें",
+        "selectCategory": "श्रेणी चुनें",
+        "cancel": "रद्द करें",
+        "register": "पंजीकरण करें"
+      },
+      "nav":{
+        "storeName": "ई दुकान",
+        "dashboard": "डैशबोर्ड",
+        "storeRegistration": "स्टोर पंजीकरण",
+        "productManagement": "उत्पाद प्रबंधन",
+        "tutorial": "ट्यूटोरियल",
+        "searchPlaceholder": "साइट में खोजें"
+      }
+}

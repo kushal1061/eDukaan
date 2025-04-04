@@ -1,0 +1,27 @@
+{
+  "language": "Language",
+  "addproducts": {
+    "viewProduct": "ઉત્પાદન જુઓ",
+    "addProduct": "ઉત્પાદન ઉમેરો",
+    "dragAndDrop": "ઉત્પાદન ઉમેરવા માટે ખેંચો અને છોડો",
+    "manageProducts": "તમારા ઉત્પાદનો અને વ્યવહારોનું સરળતાથી સંચાલન કરો",
+    "productDetails": "ઉત્પાદન વિગતો",
+    "productName": "ઉત્પાદનનું નામ",
+    "enterProductName": "ઉત્પાદનનું નામ દાખલ કરો",
+    "price": "કિંમત",
+    "enterProductPrice": "ઉત્પાદનની કિંમત દાખલ કરો",
+    "description": "વર્ણન",
+    "enterDescription": "વર્ણન દાખલ કરો",
+    "selectCategory": "શ્રેણી પસંદ કરો",
+    "cancel": "રદ કરો",
+    "register": "નોંધણી કરો"
+  }, 
+  "nav":{
+    "storeName": "ઈ દુકાન",
+    "dashboard": "ડેશબોર્ડ",
+    "storeRegistration": "સ્ટોર નોંધણી",
+    "productManagement": "ઉત્પાદન વ્યવસ્થાપન",
+    "tutorial": "ટ્યુટોરિયલ",
+    "searchPlaceholder": "સાઇટમાં શોધો"
+  }
+}

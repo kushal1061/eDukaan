@@ -3,6 +3,9 @@ import Footer from "../components/footer"
 import icon from "../assets/icon.png"
 import "./faq.css"
 function Faq(){
+    const handleclick=()=>{
+        
+    }
     return(
         <>
         <div className="helpcentre">
@@ -13,7 +16,7 @@ function Faq(){
                 </div> 
                 <div className="btns">
                     <button id="faqBtn">FAQ</button>
-                    <button id="chatBtn">Chat with Bot</button>
+                    <button id="chatBtn" onClick={handleclick}>Chat with Bot</button>
                 </div>
         </div>
         <section className="FAQ">

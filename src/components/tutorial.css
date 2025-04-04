@@ -14,7 +14,7 @@
 
 .con {
     display: flex;
-    padding: 50px 170px;
+    padding: 50px 11.1vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,11 @@
     gap: 40px;
     align-self: stretch;
 }
+@media (max-width: 500px) {
+    #tutorial {
+        flex-direction: column;
+    }
+}
 
 .tutlist {
     display: flex;
@@ -43,6 +48,8 @@
     border-radius: 6px;
     border: 1px solid var(--secondary-text, #939598);
 }
+
+
 
 .tutlist img {
     height: 100px;

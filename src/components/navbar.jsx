@@ -1,17 +1,23 @@
 import './navbar.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 function Navbar(props){
+    const { t } = useTranslation();
+    
     return(
         <nav>
-            <div className="logo"> E Dukaan </div>
+            <div className="logo"> {t('nav.storeName')} </div>
             <div> 
                 <ul >
-                <Link to="/"> <li>DashBoard</li> </Link>  
-                <Link to="/registration"><li>Store Registration</li> </Link>
-                <Link to="/Productmanagement"><li>Product Management</li> </Link>
-                <Link to="/FAQ"><li>Tutorial</li> </Link>
-                    <input type="text" placeholder='Search in site' />
+                
+                {props.flag&& <Link to="/dashboard"> <li>{t('nav.dashboard')}</li> </Link> } 
+                {/* <Link to="/registration"><li>{t('nav.storeRegistration')}</li> </Link> */}
+                <Link to="/UserRegistration"><li>{t('nav.userRegistration')}</li> </Link>
+                {props.flag &&<Link to="/Productmanagement"><li>{t('nav.productManagement')}</li> </Link>}
+                <Link to="/FAQ"><li>{t('nav.tutorial')}</li> </Link>
+                    <input type="text" placeholder={t('nav.searchPlaceholder')} />
+
                 </ul>
             </div>
         </nav>

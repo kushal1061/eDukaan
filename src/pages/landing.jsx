@@ -10,13 +10,15 @@ import clothing from '..//assets/clothing.png'
 import bakery from '..//assets/bakery.png'
 import Tutorial from "../components/tutorials"
 import { Link } from "react-router-dom"
+import LanguageSelectionPopup from "../components/LanguageSelectionPopup"
 function Landing() {
     return (<>
+    <LanguageSelectionPopup/>
         <div className="welcome-section">
             <div className="container">
                 <span className="welcome_text">Welcome to Our Platform</span>
                 <span className="manage">Manage your store efficiently with our innovative features.</span>
-                <Link to="/registration">
+                <Link to="/userregistration">
                 <button> Get Started</button>
                 </Link>
 
@@ -55,12 +57,12 @@ function Landing() {
                     <span>Kirana Store</span>
                 </div>
                 <div className="templateCard">
-                    <img src={clothing} alt="" />
-                    <span>Kirana Store</span>
+                    <img src={bakery} alt="" />
+                    <span>bakery</span>
                 </div>
                 <div className="templateCard">
                     <img src={clothing} alt="" />
-                    <span>Kirana Store</span>
+                    <span></span>
                 </div>
             </div>
         </section>

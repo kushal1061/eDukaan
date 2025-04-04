@@ -1,6 +1,6 @@
 .templates{
     display: flex;
-    padding: 60px 170px;
+    padding: 60px 11.1vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,14 @@ align-items: flex-start;
 gap: 40px;
 align-self: stretch;
 }
+@media (max-width: 500px) {
+    .templateContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .templateCard{
     display: flex;
 padding: 12px 0px;

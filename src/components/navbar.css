@@ -26,16 +26,15 @@ nav {
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 1.3vw;
     align-items: center;
 }
-
 
 nav ul {
     /* 150% */
     display: flex;
     list-style: none;
-    gap: 40px;
+    gap: 2.7vw;
     margin-right: 20px;
     align-items: center;
 }
@@ -52,7 +51,7 @@ nav input {
     border-radius: 6px;
     border: 1px solid rgba(0, 0, 0, 0.10);
     display: flex;
-    width: 200px;
+    width: 13.1vw;
     padding: 8px;
     justify-content: flex-end;
     align-items: center;
@@ -65,3 +64,4 @@ nav input {
     line-height: 20px;
     /* 142.857% */
 }
+
