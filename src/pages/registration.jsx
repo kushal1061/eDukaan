@@ -84,7 +84,7 @@ function Registration() {
                     </div>
                     <div className="btncontainer">
                         <button id="cancelbtn">Cancel</button>
-                        <input type="submit" value="submit" />
+                        <input id="registerbtn" type="submit" value="submit" />
                     </div>
                 </form>
 

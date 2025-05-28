@@ -11,10 +11,10 @@ function Navbar(props){
             <div> 
                 <ul >
                 
-                {props.flag&& <Link to="/dashboard"> <li>{t('nav.dashboard')}</li> </Link> } 
+                { <Link to="/dashboard"> <li>{t('nav.dashboard')}</li> </Link> } 
                 {/* <Link to="/registration"><li>{t('nav.storeRegistration')}</li> </Link> */}
-                <Link to="/UserRegistration"><li>{t('nav.userRegistration')}</li> </Link>
-                {props.flag &&<Link to="/Productmanagement"><li>{t('nav.productManagement')}</li> </Link>}
+                <Link to="/UserRegistration"><li>User Registration</li> </Link>
+                {<Link to="/Productmanagement"><li>{t('nav.productManagement')}</li> </Link>}
                 <Link to="/FAQ"><li>{t('nav.tutorial')}</li> </Link>
                     <input type="text" placeholder={t('nav.searchPlaceholder')} />
 
