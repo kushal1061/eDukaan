@@ -14,7 +14,7 @@ import Productmanagement from './pages/Productmanagement'
 import { Routes,Route, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Chatbot from './components/Chatbot'
 import AddProducts from './pages/addproducts'
-import Viewproducts from './pages/viewproducts'
+import Viewproducts from './pages/Viewproducts'
 import UserRegistration from './pages/user'
 // import { useState } from 'react'
 function App() {
