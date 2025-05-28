@@ -3,7 +3,7 @@ import "./landing.css"
 import proman from '../assets/proman.png'
 import userheadset from '../assets/userheadset.png'
 import onlinevedio from '../assets/onlinevedio.png'
-import user from '..//assets/image 4.png'
+import user from '..//assets/Image 4.png'
 import user2 from '..//assets/user2.png'
 import user3 from '..//assets/user3.png'
 import clothing from '..//assets/clothing.png'
